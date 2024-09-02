@@ -1,0 +1,200 @@
+.psbody{
+    background-image: url("https://images.pexels.com/photos/1493756/pexels-photo-1493756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.sucesstext {
+    background-color:  rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    
+    
+    padding: 25px 15px;
+    
+    color: white;
+    padding-bottom: 4%;
+    
+}
+
+.greenbg {
+    background-image: url("./Assets/sucess.png");
+    height: 10cm;
+    width: 10cm;
+    background-size:450px 400px;
+    background-repeat: no-repeat;
+    color: green;
+    background-position: center;
+    
+    width: 380px;
+    background-color:  rgba(243, 239, 239, 0.5);
+    border-radius: 5px;
+    
+    
+    padding: 25px 15px;
+    
+    color: white;
+    padding-bottom: 4%;
+    
+}
+
+.getticketsbutton  button {
+   
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 2cm;
+    color: #eee;
+    font-size: 12px;
+    background-color: #FF8C00;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    top: 20%;
+    font-weight: bolder;
+}
+
+.getprint button {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 2cm;
+    color: #eee;
+    font-size: 12px;
+    background-color: #FF8C00;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    top: 20%;
+    font-weight: bolder;
+}
+
+.gethome button {
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 2cm;
+    color: #eee;
+    font-size: 12px;
+    background-color: #FF8C00;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    top: 20%;
+    font-weight: bolder;
+}
+
+.Buttons{
+    display: flex;
+    justify-content: space-between;
+   
+    width: 380px;
+    background-color:  rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    
+    
+    padding: 25px 15px;
+    
+    color: white;
+    padding-bottom: 4%;
+}
+
+table { 
+	width: 750px; 
+	border-collapse: collapse; 
+	margin:50px auto;
+	}
+
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+	background: #eee; 
+	}
+
+
+th { 
+	background: #3498db; 
+	color: white; 
+	font-weight: bold; 
+	}
+
+td, th { 
+	padding: 10px; 
+	border: 1px solid #ccc; 
+	text-align: left; 
+	font-size: 18px;
+    font-weight: bolder;
+	}
+
+
+@media 
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px)  {
+
+	table { 
+	  	width: 400px; 
+      
+	}
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr { 
+		display: block; 
+        
+	}
+    tr:nth-of-type(even) { 
+        background: rgba(0, 0, 0, 0.5); 
+        }
+        tr:nth-of-type(odd) { 
+            background: #eee; 
+            }
+ tbody, td {
+        background-color:  rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        
+        
+        padding: 25px 15px;
+        
+        color: white;
+        padding-bottom: 4%;
+    }
+	
+	thead tr { 
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+
+	}
+	
+	tr { border: 1px solid #ccc; }
+	
+	td { 
+		
+		border: none;
+		border-bottom: 1px solid #eee; 
+		position: relative;
+		padding-left: 50%; 
+	}
+
+	td:before { 
+		
+		position: absolute;
+		
+		top: 6px;
+		left: 6px;
+		width: 45%; 
+		padding-right: 10px; 
+		white-space: nowrap;
+	
+		content: attr(data-column);
+
+		color: whitesmoke;
+		font-weight: bold;
+	}
+  
+    
+}

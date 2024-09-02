@@ -1,0 +1,254 @@
+.offer{
+    background-color: #FF8C00;
+    color: white;
+    font-weight: bolder;
+    border-radius: 20px;
+    margin: 0;
+    width: 70px;
+    font-size: small;
+    margin-left: 3%;
+    position: absolute;
+    padding: 1px 3px;
+   
+}
+p{
+    background-color:  rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 1100px;
+   
+    padding: 10px 5px;
+    margin-top: 10%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.col {
+    background-color:  rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 1200px;
+    
+    padding: 25px 15px;
+    margin-top: 4%;
+    color: white;
+    padding-bottom: 4%;
+    display: flex;
+
+    
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.head{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    height: 420px;
+    padding: 70px 40px;
+    box-sizing: border-box;
+   
+}
+.body{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+.head img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+  }
+.cards{
+     background-color:  rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    width: 1200px;
+    
+    
+    padding: 25px 15px;
+    margin-top: 4%;
+    color: white;
+    padding-bottom: 4%;
+    display: flex;
+  align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.but{
+    display: flex;
+}
+
+.card1{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.card2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card4{
+    display: flex;
+    flex-direction: column;
+
+}
+.card5{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.card6{
+    display: flex;
+    flex-direction: column;
+
+}
+.card7{
+    display: flex;
+    flex-direction: column;
+   
+}
+.card8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 4.2cm;
+   
+}
+
+.textbox input{
+    display: flex;
+    flex-direction: column;
+    width: 1cm;
+    margin-top: -1%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+   
+    font-size: 16px;
+    
+}
+
+.button  button{
+   
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 2cm;
+    color: #eee;
+    font-size: 12px;
+    background-color: #FF8C00;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 10px;
+    
+    top: 20%;
+    font-weight: bolder;
+}
+.arrow{
+    font-size: 30px;
+}
+.button  button:hover{
+    background-color: #ff9719;
+    color: #fff;
+}
+
+@media only screen and (max-width : 800px){
+   .body{
+    display: flex;
+    flex-direction: column;
+   }
+   p{
+    overflow: hidden;
+    width: 300px;
+   }
+
+   .offer{
+    position: relative;
+    padding: 0;
+    left: 30%;
+   }
+   .col{
+    opacity: 0;
+   }
+
+   .card8{
+    display: flex;
+    flex-direction: column;
+    
+     justify-content: space-between;
+   }
+   .textbox input{
+    display: flex;
+    flex-direction: column;
+    width: 4cm;
+    margin-top: -1%;
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+   
+    font-size: 16px;
+   }
+    .cards{
+        background-color:  rgba(0, 0, 0, 0.5);
+       border-radius: 5px;
+       width: 300px;
+       
+       height: 9cm;
+      padding-bottom: 2cm;
+       margin-top: 4%;
+       color: white;
+       padding-bottom: 4%;
+       display: flex;
+       flex-direction: column;
+     align-items: center;
+       justify-content: space-between;
+   
+       
+   }
+
+   .head img{
+    top: 0%;
+    
+    width: 90px;
+    height: 90px;
+    
+   }
+  .card7{
+    margin-bottom: 0.2cm;
+  }
+
+   .head{
+    width: 20px;
+    height: 420px;
+    padding: 70px 40px;
+   }
+  }
+
+   body{
+   background-size: cover;
+   }
